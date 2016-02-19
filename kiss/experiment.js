@@ -13,9 +13,7 @@ define(['lodash'], function (_) {
 
   function isOpen(name) {
     var model = window.rendererModel || window.editorModel || {};
-    return _.some(model.runningExperiments, function(value, expName) {
-      return expName.toLowerCase() === name.toLowerCase() && value === 'new';
-    });
+    return true;
   }
 
   return {
