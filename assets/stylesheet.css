@@ -1,0 +1,209 @@
+.font-0 {font:normal normal normal 68px/1.4em dinneuzeitgroteskltw01-_812426,sans-serif ;color:#FFFFFF;}
+.font-1 {font:normal normal normal 16px/1.4em din-next-w01-light,din-next-w02-light,din-next-w10-light,sans-serif ;color:#6E6968;}
+.font-2 {font:normal normal normal 34px/1.4em din-next-w01-light,din-next-w02-light,din-next-w10-light,sans-serif ;color:#2F2E2E;}
+.font-3 {font:normal normal normal 60px/1.4em din-next-w01-light,din-next-w02-light,din-next-w10-light,sans-serif ;color:#6E6968;}
+.font-4 {font:normal normal normal 34px/1.4em din-next-w01-light,din-next-w02-light,din-next-w10-light,sans-serif ;color:#2F2E2E;}
+.font-5 {font:normal normal normal 25px/1.4em din-next-w01-light,din-next-w02-light,din-next-w10-light,sans-serif ;color:#6E6968;}
+.font-6 {font:normal normal normal 21px/1.4em futura-lt-w01-light,sans-serif ;color:#6E6968;}
+.font-7 {font:normal normal normal 20px/1.4em din-next-w01-light,din-next-w02-light,din-next-w10-light,sans-serif ;color:#2F2E2E;}
+.font-8 {font:normal normal normal 17px/1.4em din-next-w01-light,din-next-w02-light,din-next-w10-light,sans-serif ;color:#2F2E2E;}
+.font-9 {font:normal normal normal 14px/1.4em din-next-w01-light,din-next-w02-light,din-next-w10-light,sans-serif ;color:#6E6968;}
+.font-10 {font:normal normal normal 12px/1.4em din-next-w01-light,din-next-w02-light,din-next-w10-light,sans-serif ;color:#6E6968;}
+
+* {
+  margin: 0;
+}
+
+html, body {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  overflow-x: hidden;
+  background-color: #000;
+}
+
+#background {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  opacity: 0.9;
+  overflow: hidden;
+}
+
+#background #image {
+  top: 0px;
+  height: 120%;
+  width: 100%;
+  background-image: url('../assets/images/lips.jpg');
+  background-size: cover;
+  background-position: 50% 0%;
+  background-repeat: no-repeat;
+}
+
+#sections {
+  width: 100%;
+  position: relative;
+  z-index: 100;
+}
+
+.button.order {
+  width: 100px;
+  height: 35px;
+  display: inline-block;
+  background-color: #b3005f;
+  border-radius: 6px;
+}
+
+.button.order a {
+  width: 100%;
+  height: 35px;
+  text-transform: uppercase;
+  text-decoration: none;
+  display: inline-block;
+  color: #fff;
+  letter-spacing: 0.2em;
+  background-color: #e6007b;
+  border-radius: 6px;
+  padding-top: 10px;
+  transform: translateY(-15px);
+  transition: 0.3s ease-in-out;
+}
+
+.button.order:hover a {
+  transform: translateY(-10px);
+}
+
+#sections .top.button.order {
+  margin-top: 100px;
+  margin-left: 80px;
+  text-align: center;
+}
+
+#sections .section {
+  text-align: center;
+}
+
+#sections .landing {
+  max-width: 800px;
+  margin: 0 auto;
+  padding-top: 150px;
+  padding-bottom: 100px;
+}
+
+#sections .landing .logo {
+  width: 216px;
+  height: 161px;
+  background-image: url('../assets/images/logo.png');
+  margin: 0 auto;
+  margin-bottom: 60px;
+}
+
+#sections .landing .title {
+  color: #fff;
+  font-size: 68px;
+  margin: 0 auto;
+  text-transform: uppercase;
+  letter-spacing: 0.03em;
+}
+
+#sections .landing .subtitle {
+  color: #fff;
+  font-weight: 500;
+  margin: 0 auto;
+  text-transform: uppercase;
+  letter-spacing: 3px;
+}
+
+#sections .landing .balm {
+  width: 249px;
+  height: 309px;
+  background-image: url('../assets/images/balm.png');
+  margin: 0 auto;
+  margin-top: 80px;
+}
+
+#sections .landing .social {
+  margin: 0 auto;
+  margin-top: 80px;
+}
+
+#sections .landing .social .icon {
+  width: 40px;
+  height: 40px;
+  display: inline-block;
+}
+
+#sections .landing .social .icon:hover {
+  transform: translateY(-2px);
+  opacity: 0.7;
+}
+
+#sections .landing .social .facebook {
+  margin-right: 20px;
+  background-image: url('../assets/images/facebook-icon.png');
+}
+
+#sections .landing .social .instagram {
+  background-image: url('../assets/images/instagram-icon.png');
+}
+
+#sections .pitches {
+  background-image: url('../assets/images/black-texture.jpg');
+  width: 100%;
+  padding-top: 100px;
+  padding-bottom: 100px;
+  box-shadow: 0 10px 5px #fff;
+}
+
+#sections .pitches .header {
+  color: #fff;
+  text-transform: uppercase;
+  margin-bottom: 30px;
+}
+
+#sections .pitches .bar {
+  background-color: #fff;
+  width: 40px;
+  height: 3px;
+  margin: 0 auto;
+  margin-bottom: 30px;
+}
+
+#sections .pitches .icon {
+  width: 135px;
+  height: 135px;
+  position: relative;
+  left: 30px;
+  margin-top: 20px;
+  margin-bottom: 30px;
+  margin-right: 70px;
+}
+
+#sections .pitches .title {
+  color: #fff;
+  text-transform: uppercase;
+  display: inline-block;
+  width: 205px;
+}
+
+#sections .pitches .titles {
+  margin-top: 10px;
+}
+
+#sections .pitches .bodys {
+  margin-top: 20px;
+}
+
+#sections .pitches .body {
+  color: #fff;
+  display: inline-block;
+  width: 195px;
+  margin-right: 10px;
+}
+
+#sections .pitches .button.order {
+  margin-top: 100px;
+}
