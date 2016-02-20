@@ -29,6 +29,7 @@ body {
   width: 100%;
   height: 100%;
   position: absolute;
+  z-index: -1;
   opacity: 0.9;
   overflow: hidden;
 }
@@ -89,8 +90,8 @@ body {
 #sections .landing {
   max-width: 800px;
   margin: 0 auto;
-  padding-top: 150px;
-  padding-bottom: 100px;
+  padding-top: 60px;
+  padding-bottom: 80px;
 }
 
 #sections .landing .logo {
@@ -144,6 +145,11 @@ body {
 #sections .landing .social .facebook {
   margin-right: 20px;
   background-image: url('../assets/images/facebook-icon.png');
+}
+
+#sections .landing .social .twitter {
+  margin-right: 20px;
+  background-image: url('../assets/images/twitter-icon.png');
 }
 
 #sections .landing .social .instagram {
